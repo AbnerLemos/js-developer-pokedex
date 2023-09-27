@@ -4,21 +4,24 @@
 }
 
 body {
-    background-color: #f6f8fc;
-}
+    background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
 
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
-}
 
-@media screen and (min-width: 992px) {
+
     .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
+        width: 100vw;
+        height: 100vh;
+        padding: 1rem;
+        background: transparent url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png) left top;
     }
+
+    @media screen and (min-width: 992px) {
+        .content {
+            max-width: 992px;
+            margin: 1rem auto;
+            height: auto;
+            border-radius: 1rem;
+        }
+    }
+
 }
